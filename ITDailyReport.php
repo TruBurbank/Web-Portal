@@ -30,15 +30,15 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                   
+
                 </ul>
             </div>
         </div>
     </nav>
-   
+
 
     </div>
-   
+
  <form method="POST" action="add.php">
                 <div class="row form-group">
                     <div class="col-sm-2">
@@ -117,7 +117,7 @@
                         <label class="control-label modal-label">Direct Mail:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="cseinquiryattend" required>
+                        <input type="text" class="form-control" name="csedmail" required>
                     </div>
                 </div>
                 <div class="row form-group">
@@ -133,7 +133,7 @@
                         <label class="control-label modal-label">Leads Forwarded to other Branch :</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="cseextrawork" required>
+                        <input type="text" class="form-control" name="cseleads" required>
                     </div>
                 </div>
                  <div class="row form-group">
@@ -141,7 +141,7 @@
                         <label class="control-label modal-label">Enquiry:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="csetotal" required>
+                        <input type="text" class="form-control" name="cseenquiry" required>
                     </div>
                 </div>
                 <div class="row form-group">
@@ -157,7 +157,7 @@
                         <label class="control-label modal-label">Final:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="csevirtualattend" required>
+                        <input type="text" class="form-control" name="csefinal" required>
                     </div>
                 </div>
                 <div class="row form-group">
@@ -165,7 +165,7 @@
                         <label class="control-label modal-label">Extra Work:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="cseenterinmenttime" required>
+                        <input type="text" class="form-control" name="cseextrawork" required>
                     </div>
                 </div>
                   <div class="row form-group">
@@ -173,7 +173,7 @@
                         <label class="control-label modal-label">Lecture Attend:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="cseenterinmenttime" required>
+                        <input type="text" class="form-control" name="cselec" required>
                     </div>
                 </div>
                 <div class="row form-group">
@@ -181,7 +181,7 @@
                         <label class="control-label modal-label">Entertainment Time taken:</label>
                     </div>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="csetotalbreaks" required>
+                        <input type="text" class="form-control" name="cseenterinmenttime" required>
                     </div>
                 </div>
                  <div class="row form-group">
@@ -200,13 +200,13 @@
                         <input type="time" class="form-control" name="cseouttime" required>
                     </div>
                 </div>
-            </div> 
+            </div>
             </div>
             <center>
             <div class="modal-footer">
 
         <button type="reset" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Reset</button>
-         <button type="submit" name="add" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
+         <button type="submit" name="ITD" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
 
          </center>
             </form>
